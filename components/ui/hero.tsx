@@ -6,7 +6,7 @@ function Hero() {
     <section id="hero" className="border-b px-5 overflow-hidden">
       <div className="border-x w-full p-6 md:p-10 lg:p-12 animate-in fade-in slide-in-from-bottom-4 duration-1000">
         {/* Profile Row */}
-        <div className="flex gap-4 items-start mb-6 pb-6 border-b">
+        <div className="flex gap-4 items-start mb-6 pb-6">
           <div className="relative h-20 w-20 shrink-0 overflow-hidden rounded-xl border bg-muted md:h-24 md:w-24 shadow-sm">
             <Image
               src="/abiasa.png"

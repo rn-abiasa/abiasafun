@@ -46,7 +46,9 @@ function Navbar() {
           <a href="#" className="text-xl font-bold tracking-tighter">
             {brand}
           </a>
-          <div className="hidden md:flex items-center gap-6">
+        </div>
+        <div className="flex items-center gap-5">
+          <div className="flex items-center gap-4">
             <a
               href="#projects"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
@@ -60,8 +62,6 @@ function Navbar() {
               Contact
             </a>
           </div>
-        </div>
-        <div className="flex items-center gap-2">
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button

@@ -11,6 +11,14 @@ const projects = [
     link: "https://blertum.netlify.app",
   },
   {
+    title: "Aura Earbuds Landing Page",
+    description:
+      "Full-stack e-commerce platform with real-time inventory, Stripe payments, and an admin dashboard.",
+    tags: ["React", "TypeScript", "Prisma", "Stripe"],
+    image: "/budsear.webp",
+    link: "https://budsear.netlify.app",
+  },
+  {
     title: "Premium SaaS Landing Page",
     description:
       "Kanban-style task management app with drag-and-drop, team collaboration, and real-time sync.",
